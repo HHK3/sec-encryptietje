@@ -12,6 +12,44 @@
 </head>
 <body>
 
+    <h1>Joël Lakhai - Sec - Symmetrische Encryptie</h1>
+    <hr>
+
+    <!-- Opdracht 1 -->
+    <h1>Opdracht 1 - Cipher Algoritme</h1>
+    
+    <?php
+
+    $string = 'Hallo';
+
+    $indexArray = array(
+     $string[0],
+     $string[1],
+     $string[2],
+     $string[3],
+     $string[4]
+    );
+
+    foreach ($indexArray as $k => $v) {
+        if ($k % 2 == 0) {
+            $asciiValue = ord($indexArray[$k]);
+            $higherAscii = $asciiValue + $k;
+            $newCharacter = chr($higherAscii);
+            echo '<br>' . $newCharacter . ' / ASCII = ' ;
+
+            echo $higherAscii;
+        }
+        else {
+            $asciiValue = ord($indexArray[$k]);
+            $lowerAscii = $asciiValue - $k;
+            $newCharacter = chr($lowerAscii);
+            echo '<br>' . $newCharacter . '   / ASCII = ';
+
+            echo $lowerAscii;
+        }
+    }
+    ?>
+
 
     <!-- Opdracht 2 -->
     <h1>Opdracht 2 - Cryptografische Coderingen</h1>
