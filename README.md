@@ -20,3 +20,9 @@ Security Exercises on OpenSSL, AES etc.
 ##### Waarvoor gebruikt Github de keys als je met SSH inlogt?
 - Om ervoor te zorgen dat de Repository gedecrypt wordt, zo kun je op een veiligere manier bestanden wijzigen/verwijderen/toevoegen
 
+### Exercise 4
+##### Wat moet er allemaal geregeld worden dat Bob ook berichten aan Alice kan sturen die versleuteld zijn?
+- Bob moet de Session Key & Public key (PUB_KEY_ALICE) hebben om zijn bericht te encrypten, die Public key moet Alice ook hebben  
+
+##### Wat moet er geregeld worden zodat ook Alice de berichten van Bob kan lezen?
+- Alice moet de Private Key (PRIV_KEY_ALICE) & Public Key (PUB_KEY_ALICE) hebben om het bericht van Bob te decrypten
