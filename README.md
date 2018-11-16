@@ -9,3 +9,8 @@ Security Exercises on OpenSSL, AES etc.
 - openssl_public_decrypt()
 - openssl_private_decrypt()
 
+### Exercise 2: Wat is de maximale hoeveelheid bits en bytes dat RSA kan `encrypten `?
+- Bits: 2048 bits
+- Bytes: 256 bytes
+
+
