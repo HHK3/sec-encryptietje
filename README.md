@@ -13,4 +13,10 @@ Security Exercises on OpenSSL, AES etc.
 - Bits: 2048 bits
 - Bytes: 256 bytes
 
+### Exercise 3
+##### Gebruik ik in IntelliJ een username / password combinatie voor je Github of gebruik je SSH keys?
+- Ik maak gebruik van een username / password combinatie
+
+##### Waarvoor gebruikt Github de keys als je met SSH inlogt?
+- Om ervoor te zorgen dat de Repository gedecrypt wordt, zo kun je op een veiligere manier bestanden wijzigen/verwijderen/toevoegen
 
